@@ -17,9 +17,3 @@ const totalEdad = historias.reduce((acumulador, historia) => {
 }, 0)
 
 console.log(totalEdad)
-
-let tempo = 0
-for (let elemento of historias) {
-	tempo += elemento.edad
-}
-console.log(tempo)
